@@ -1,0 +1,2238 @@
+02-17-2022 @ 00:38:03 - [process_payment]: customer being redirected to Mercado Pago.
+02-17-2022 @ 00:38:03 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-289",
+    "notification_url": null,
+    "statement_descriptor": "Ivanis",
+    "items": [
+        {
+            "id": 164,
+            "title": "BLOQUEADOR SOLAR x 1",
+            "description": "BLOQUEADOR-SOLAR",
+            "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 20000,
+            "currency_id": "COP"
+        }
+    ],
+    "payer": {
+        "name": "Jorge Armando",
+        "surname": "Ibarra Palacios",
+        "email": "jorgeibarra87@gmail.com",
+        "phone": {
+            "number": "3133214578"
+        },
+        "address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro \/ cali CO-VAC CO"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+        "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+        "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.2.0",
+        "module_version": "5.7.2",
+        "site_id": "mco",
+        "sponsor_id": 208687643,
+        "collector": "38777275",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": {
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/ivanis",
+        "billing_address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro",
+            "city_name": "cali",
+            "state_name": "CO-VAC",
+            "country_name": "CO"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "jorgeibarra87@gmail.com",
+            "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+02-17-2022 @ 00:38:04 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:38:03.911+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-289",
+        "id": "38777275-b672fb40-0bab-471e-ae09-b5da76291a24",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-b672fb40-0bab-471e-ae09-b5da76291a24",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "164",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "BLOQUEADOR-SOLAR",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+                "title": "BLOQUEADOR SOLAR x 1",
+                "quantity": 1,
+                "unit_price": 20000
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "jorgeibarra87@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Jorge Armando",
+            "surname": "Ibarra Palacios",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-b672fb40-0bab-471e-ae09-b5da76291a24",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:38:04 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:38:03.911+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-289",
+        "id": "38777275-b672fb40-0bab-471e-ae09-b5da76291a24",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-b672fb40-0bab-471e-ae09-b5da76291a24",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "164",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "BLOQUEADOR-SOLAR",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+                "title": "BLOQUEADOR SOLAR x 1",
+                "quantity": 1,
+                "unit_price": 20000
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "jorgeibarra87@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Jorge Armando",
+            "surname": "Ibarra Palacios",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-b672fb40-0bab-471e-ae09-b5da76291a24",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:39:41 - [process_payment]: customer being redirected to Mercado Pago.
+02-17-2022 @ 00:39:41 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-289",
+    "notification_url": null,
+    "statement_descriptor": "Ivanis",
+    "items": [
+        {
+            "id": 164,
+            "title": "BLOQUEADOR SOLAR x 1",
+            "description": "BLOQUEADOR-SOLAR",
+            "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 20000,
+            "currency_id": "COP"
+        }
+    ],
+    "payer": {
+        "name": "Juan Camilo",
+        "surname": "Gomez",
+        "email": "jorgeibarra85@gmail.com",
+        "phone": {
+            "number": "3133214578"
+        },
+        "address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro \/ cali CO-VAC CO"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+        "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+        "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.2.0",
+        "module_version": "5.7.2",
+        "site_id": "mco",
+        "sponsor_id": 208687643,
+        "collector": "38777275",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": {
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/ivanis",
+        "billing_address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro",
+            "city_name": "cali",
+            "state_name": "CO-VAC",
+            "country_name": "CO"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "jorgeibarra87@gmail.com",
+            "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+02-17-2022 @ 00:39:42 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:39:42.347+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-289",
+        "id": "38777275-6284ed61-e61e-4c6b-a73e-f87ce9bf62b8",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-6284ed61-e61e-4c6b-a73e-f87ce9bf62b8",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "164",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "BLOQUEADOR-SOLAR",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+                "title": "BLOQUEADOR SOLAR x 1",
+                "quantity": 1,
+                "unit_price": 20000
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "jorgeibarra85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-6284ed61-e61e-4c6b-a73e-f87ce9bf62b8",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:39:42 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:39:42.347+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-289",
+        "id": "38777275-6284ed61-e61e-4c6b-a73e-f87ce9bf62b8",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-6284ed61-e61e-4c6b-a73e-f87ce9bf62b8",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "164",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "BLOQUEADOR-SOLAR",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+                "title": "BLOQUEADOR SOLAR x 1",
+                "quantity": 1,
+                "unit_price": 20000
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "jorgeibarra85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-6284ed61-e61e-4c6b-a73e-f87ce9bf62b8",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:41:02 - [process_payment]: customer being redirected to Mercado Pago.
+02-17-2022 @ 00:41:02 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-289",
+    "notification_url": null,
+    "statement_descriptor": "Ivanis",
+    "items": [
+        {
+            "id": 164,
+            "title": "BLOQUEADOR SOLAR x 1",
+            "description": "BLOQUEADOR-SOLAR",
+            "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 20000,
+            "currency_id": "COP"
+        }
+    ],
+    "payer": {
+        "name": "Juan Camilo",
+        "surname": "Gomez",
+        "email": "juancamilo85@gmail.com",
+        "phone": {
+            "number": "3133214578"
+        },
+        "address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro \/ cali CO-VAC CO"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+        "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+        "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.2.0",
+        "module_version": "5.7.2",
+        "site_id": "mco",
+        "sponsor_id": 208687643,
+        "collector": "38777275",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": {
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/ivanis",
+        "billing_address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro",
+            "city_name": "cali",
+            "state_name": "CO-VAC",
+            "country_name": "CO"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "jorgeibarra87@gmail.com",
+            "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+02-17-2022 @ 00:41:03 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:41:03.002+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-289",
+        "id": "38777275-4e1901ec-d7f0-4bcc-b18b-b8ad2b9b88b9",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-4e1901ec-d7f0-4bcc-b18b-b8ad2b9b88b9",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "164",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "BLOQUEADOR-SOLAR",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+                "title": "BLOQUEADOR SOLAR x 1",
+                "quantity": 1,
+                "unit_price": 20000
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-4e1901ec-d7f0-4bcc-b18b-b8ad2b9b88b9",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:41:03 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_z0W5c58feXlgL&order_id=289&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/289\/?key=wc_order_z0W5c58feXlgL"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:41:03.002+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-289",
+        "id": "38777275-4e1901ec-d7f0-4bcc-b18b-b8ad2b9b88b9",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-4e1901ec-d7f0-4bcc-b18b-b8ad2b9b88b9",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "164",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "BLOQUEADOR-SOLAR",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/bloqueador-solar.jpeg",
+                "title": "BLOQUEADOR SOLAR x 1",
+                "quantity": 1,
+                "unit_price": 20000
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-4e1901ec-d7f0-4bcc-b18b-b8ad2b9b88b9",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:45:01 - [process_payment]: customer being redirected to Mercado Pago.
+02-17-2022 @ 00:45:01 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-290",
+    "notification_url": null,
+    "statement_descriptor": "Ivanis",
+    "items": [
+        {
+            "id": 168,
+            "title": "ACEITE DESMAQUILLANTE x 1",
+            "description": "ACEITE-DESMAQUILLANTE",
+            "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 7500,
+            "currency_id": "COP"
+        }
+    ],
+    "payer": {
+        "name": "Juan Camilo",
+        "surname": "Gomez",
+        "email": "juancamilo85@gmail.com",
+        "phone": {
+            "number": "3133214578"
+        },
+        "address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro \/ cali CO-VAC CO"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+        "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+        "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.2.0",
+        "module_version": "5.7.2",
+        "site_id": "mco",
+        "sponsor_id": 208687643,
+        "collector": "38777275",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": {
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/ivanis",
+        "billing_address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro",
+            "city_name": "cali",
+            "state_name": "CO-VAC",
+            "country_name": "CO"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "jorgeibarra87@gmail.com",
+            "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+02-17-2022 @ 00:45:02 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:45:02.504+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-290",
+        "id": "38777275-71ff1429-8fdc-46e8-9abe-8f2c58987f91",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-71ff1429-8fdc-46e8-9abe-8f2c58987f91",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "168",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "ACEITE-DESMAQUILLANTE",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+                "title": "ACEITE DESMAQUILLANTE x 1",
+                "quantity": 1,
+                "unit_price": 7500
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-71ff1429-8fdc-46e8-9abe-8f2c58987f91",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:45:02 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:45:02.504+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-290",
+        "id": "38777275-71ff1429-8fdc-46e8-9abe-8f2c58987f91",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-71ff1429-8fdc-46e8-9abe-8f2c58987f91",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "168",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "ACEITE-DESMAQUILLANTE",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+                "title": "ACEITE DESMAQUILLANTE x 1",
+                "quantity": 1,
+                "unit_price": 7500
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-71ff1429-8fdc-46e8-9abe-8f2c58987f91",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:45:37 - [process_payment]: customer being redirected to Mercado Pago.
+02-17-2022 @ 00:45:37 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-290",
+    "notification_url": null,
+    "statement_descriptor": "Ivanis",
+    "items": [
+        {
+            "id": 168,
+            "title": "ACEITE DESMAQUILLANTE x 1",
+            "description": "ACEITE-DESMAQUILLANTE",
+            "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 7500,
+            "currency_id": "COP"
+        }
+    ],
+    "payer": {
+        "name": "Juan Camilo",
+        "surname": "Gomez",
+        "email": "juancamilo85@gmail.com",
+        "phone": {
+            "number": "3133214578"
+        },
+        "address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro \/ cali CO-VAC CO"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+        "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+        "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.2.0",
+        "module_version": "5.7.2",
+        "site_id": "mco",
+        "sponsor_id": 208687643,
+        "collector": "38777275",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": {
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/ivanis",
+        "billing_address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro",
+            "city_name": "cali",
+            "state_name": "CO-VAC",
+            "country_name": "CO"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "jorgeibarra87@gmail.com",
+            "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+02-17-2022 @ 00:45:38 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:45:37.897+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-290",
+        "id": "38777275-23182b67-ad87-4975-9dfb-65ac932cc17e",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-23182b67-ad87-4975-9dfb-65ac932cc17e",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "168",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "ACEITE-DESMAQUILLANTE",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+                "title": "ACEITE DESMAQUILLANTE x 1",
+                "quantity": 1,
+                "unit_price": 7500
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-23182b67-ad87-4975-9dfb-65ac932cc17e",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:45:38 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:45:37.897+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-290",
+        "id": "38777275-23182b67-ad87-4975-9dfb-65ac932cc17e",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-23182b67-ad87-4975-9dfb-65ac932cc17e",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "168",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "ACEITE-DESMAQUILLANTE",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+                "title": "ACEITE DESMAQUILLANTE x 1",
+                "quantity": 1,
+                "unit_price": 7500
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-23182b67-ad87-4975-9dfb-65ac932cc17e",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:50:23 - [process_payment]: customer being redirected to Mercado Pago.
+02-17-2022 @ 00:50:23 - [Created preference: ]: Preference: {
+    "binary_mode": false,
+    "external_reference": "WC-290",
+    "notification_url": null,
+    "statement_descriptor": "Ivanis",
+    "items": [
+        {
+            "id": 168,
+            "title": "ACEITE DESMAQUILLANTE x 1",
+            "description": "ACEITE-DESMAQUILLANTE",
+            "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 7500,
+            "currency_id": "COP"
+        }
+    ],
+    "payer": {
+        "name": "Juan Camilo",
+        "surname": "Gomez",
+        "email": "juancamilo85@gmail.com",
+        "phone": {
+            "number": "3133214578"
+        },
+        "address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro \/ cali CO-VAC CO"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+        "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+        "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "apartment": "",
+            "city_name": "",
+            "state_name": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "excluded_payment_methods": []
+    },
+    "auto_return": "approved",
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "6.2.0",
+        "module_version": "5.7.2",
+        "site_id": "mco",
+        "sponsor_id": 208687643,
+        "collector": "38777275",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "no",
+            "installments": "24",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no"
+        },
+        "custom_settings": {
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "seller_website": "http:\/\/localhost\/ivanis",
+        "billing_address": {
+            "zip_code": "057",
+            "street_name": "Carrera 8 Barrio centro",
+            "city_name": "cali",
+            "state_name": "CO-VAC",
+            "country_name": "CO"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "jorgeibarra87@gmail.com",
+            "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    }
+}
+02-17-2022 @ 00:50:24 - [create_preference]: Created Preference: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:50:24.368+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-290",
+        "id": "38777275-eaa4e469-b063-4d64-bb38-0dc720b98477",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-eaa4e469-b063-4d64-bb38-0dc720b98477",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "168",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "ACEITE-DESMAQUILLANTE",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+                "title": "ACEITE DESMAQUILLANTE x 1",
+                "quantity": 1,
+                "unit_price": 7500
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-eaa4e469-b063-4d64-bb38-0dc720b98477",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}
+02-17-2022 @ 00:50:24 - [create_preference]: payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "additional_info": "",
+        "auto_return": "approved",
+        "back_urls": {
+            "failure": "http:\/\/localhost\/ivanis\/carrito\/?cancel_order=true&order=wc_order_9dBYxbLwXd0Wq&order_id=290&redirect&_wpnonce=3c5ef78b0a",
+            "pending": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq",
+            "success": "http:\/\/localhost\/ivanis\/finalizar-compra\/order-received\/290\/?key=wc_order_9dBYxbLwXd0Wq"
+        },
+        "binary_mode": false,
+        "client_id": "221824314486181",
+        "collector_id": 38777275,
+        "coupon_code": null,
+        "coupon_labels": null,
+        "date_created": "2022-02-17T05:50:24.368+00:00",
+        "date_of_expiration": null,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "expires": false,
+        "external_reference": "WC-290",
+        "id": "38777275-eaa4e469-b063-4d64-bb38-0dc720b98477",
+        "init_point": "https:\/\/www.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-eaa4e469-b063-4d64-bb38-0dc720b98477",
+        "internal_metadata": null,
+        "items": [
+            {
+                "id": "168",
+                "category_id": "fashion",
+                "currency_id": "COP",
+                "description": "ACEITE-DESMAQUILLANTE",
+                "picture_url": "http:\/\/localhost\/ivanis\/wp-content\/uploads\/2022\/02\/aceite-desmaquillante.jpeg",
+                "title": "ACEITE DESMAQUILLANTE x 1",
+                "quantity": 1,
+                "unit_price": 7500
+            }
+        ],
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "metadata": {
+            "basic_settings": {
+                "auto_return": "yes",
+                "binary_mode": "no",
+                "currency_conversion": "no",
+                "enabled": "yes",
+                "installments": "24",
+                "method": "redirect"
+            },
+            "billing_address": {
+                "city_name": "cali",
+                "country_name": "CO",
+                "state_name": "CO-VAC",
+                "street_name": "Carrera 8 Barrio centro",
+                "zip_code": "057"
+            },
+            "checkout": "smart",
+            "checkout_type": "redirect",
+            "collector": "38777275",
+            "custom_settings": {
+                "checkbox_checkout_test_mode": "yes",
+                "checkout_credential_prod": "deprecated"
+            },
+            "details": "",
+            "module_version": "5.7.2",
+            "pix_settings": [],
+            "platform": "bo2hnr2ic4p001kbgpt0",
+            "platform_version": "6.2.0",
+            "seller_website": "http:\/\/localhost\/ivanis",
+            "site_id": "mco",
+            "sponsor_id": 208687643,
+            "test_mode": true,
+            "ticket_settings": [],
+            "user": {
+                "registered_user": "yes",
+                "user_email": "jorgeibarra87@gmail.com",
+                "user_registration_date": "2022-02-15T22:04:54.000+00:00"
+            }
+        },
+        "notification_url": null,
+        "operation_type": "regular_payment",
+        "payer": {
+            "phone": {
+                "area_code": "",
+                "number": "3133214578"
+            },
+            "address": {
+                "zip_code": "057",
+                "street_name": "Carrera 8 Barrio centro  cali CO-VAC CO",
+                "street_number": null
+            },
+            "email": "juancamilo85@gmail.com",
+            "identification": {
+                "number": "",
+                "type": ""
+            },
+            "name": "Juan Camilo",
+            "surname": "Gomez",
+            "date_created": null,
+            "last_purchase": null
+        },
+        "payment_methods": {
+            "default_card_id": null,
+            "default_payment_method_id": null,
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_installments": null
+        },
+        "processing_modes": null,
+        "product_id": null,
+        "redirect_urls": {
+            "failure": "",
+            "pending": "",
+            "success": ""
+        },
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.co\/checkout\/v1\/redirect?pref_id=38777275-eaa4e469-b063-4d64-bb38-0dc720b98477",
+        "site_id": "MCO",
+        "shipments": {
+            "default_shipping_method": null,
+            "receiver_address": {
+                "zip_code": "",
+                "street_name": "    ",
+                "street_number": null,
+                "floor": "",
+                "apartment": "",
+                "city_name": "",
+                "state_name": "",
+                "country_name": null
+            }
+        },
+        "statement_descriptor": "Ivanis",
+        "total_amount": null,
+        "last_updated": null
+    }
+}

@@ -1,0 +1,54 @@
+2022-02-17T04:32:39+00:00 CRITICAL Uncaught Error: Non-static method WC_WooMercadoPago_Configs::get_available_payment_methods() cannot be called statically in C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php:524
+Stack trace:
+#0 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(307): WC_WooMercadoPago_MercadoPago_Settings->mp_get_payment_class_properties('')
+#1 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\ivanis\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ivanis\wp-admin\admin-ajax.php(187): do_action('wp_ajax_mp_get_...')
+#4 {main}
+  thrown en C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php en la línea 524
+
+2022-02-17T04:59:58+00:00 CRITICAL Uncaught Error: Non-static method WC_WooMercadoPago_Configs::get_available_payment_methods() cannot be called statically in C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php:524
+Stack trace:
+#0 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(307): WC_WooMercadoPago_MercadoPago_Settings->mp_get_payment_class_properties('')
+#1 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\ivanis\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ivanis\wp-admin\admin-ajax.php(187): do_action('wp_ajax_mp_get_...')
+#4 {main}
+  thrown en C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php en la línea 524
+
+2022-02-17T05:02:29+00:00 CRITICAL Uncaught Error: Non-static method WC_WooMercadoPago_Configs::get_available_payment_methods() cannot be called statically in C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php:524
+Stack trace:
+#0 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(307): WC_WooMercadoPago_MercadoPago_Settings->mp_get_payment_class_properties('')
+#1 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\ivanis\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ivanis\wp-admin\admin-ajax.php(187): do_action('wp_ajax_mp_get_...')
+#4 {main}
+  thrown en C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php en la línea 524
+
+2022-02-17T05:10:29+00:00 CRITICAL Uncaught Error: Non-static method WC_WooMercadoPago_Configs::get_available_payment_methods() cannot be called statically in C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php:524
+Stack trace:
+#0 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(307): WC_WooMercadoPago_MercadoPago_Settings->mp_get_payment_class_properties('')
+#1 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\ivanis\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ivanis\wp-admin\admin-ajax.php(187): do_action('wp_ajax_mp_get_...')
+#4 {main}
+  thrown en C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php en la línea 524
+
+2022-02-17T05:23:47+00:00 CRITICAL Uncaught Error: Non-static method WC_WooMercadoPago_Configs::get_available_payment_methods() cannot be called statically in C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php:524
+Stack trace:
+#0 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(307): WC_WooMercadoPago_MercadoPago_Settings->mp_get_payment_class_properties('')
+#1 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\ivanis\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ivanis\wp-admin\admin-ajax.php(187): do_action('wp_ajax_mp_get_...')
+#4 {main}
+  thrown en C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php en la línea 524
+
+2022-02-17T05:30:09+00:00 CRITICAL Uncaught Error: Non-static method WC_WooMercadoPago_Configs::get_available_payment_methods() cannot be called statically in C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php:524
+Stack trace:
+#0 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(307): WC_WooMercadoPago_MercadoPago_Settings->mp_get_payment_class_properties('')
+#1 C:\xampp\htdocs\ivanis\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\ivanis\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ivanis\wp-admin\admin-ajax.php(187): do_action('wp_ajax_mp_get_...')
+#4 {main}
+  thrown en C:\xampp\htdocs\ivanis\wp-content\plugins\woocommerce-mercadopago\includes\module\mercadopago-settings\class-wc-woomercadopago-mercadopago-settings.php en la línea 524
+
